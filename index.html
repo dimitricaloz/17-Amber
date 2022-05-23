@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<Link rel="stylesheet" href="css/styles.css" />
 <html prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8" />
@@ -9,9 +10,11 @@
     <header>
       <nav>
         <img src="img/logo_amber.svg" alt="logo-amber">
-        <a href="#produits">produits</a>
-        <a href="#revendeurs">revendeurs</a>
-        <a href="#contact">contact</a>
+        <div class="container navigation">
+          <a href="#produits">produits</a>
+          <a href="#revendeurs">revendeurs</a>
+          <a href="#contact">contact</a>
+      </div>
       </nav>
       <p>
         Amber est une marque de produits audio de haute qualité.
@@ -20,15 +23,17 @@
       </p>
     </header>
     <main>
+      <div class="product">
       <h1 id="produits">Produits</h1>
       <img src="img/illustration-50s.webp" alt="illustration-50">
-      <a href="pages/boite-50s.html">voir plus</a>
+      <a class="button" href="pages/boite-50s.html">voir plus</a>
       <img src="img/illustration-60s.webp" alt="illustration-60">
-      <a href="pages/boite-60s.html">voir plus</a>
+      <a class="button" href="pages/boite-60s.html">voir plus</a>
       <img src="img/illustration-70s.webp" alt="illustration-70">
-      <a href="pages/boite-70s.html">voir plus</a>
+      <a class="button" href="pages/boite-70s.html">voir plus</a>
+    </div>
     </main>
-    <nav class="nav.footer"> 
+    <nav class="nav-footer"> 
       <h1 id="revendeurs">Nos revendeurs</h1>
       <a href="https://www.fr.fnac.ch/">Fnac</a>
       <a href="https://www.manor.ch/de/u/fashion-season-news?gclid=CjwKCAjw7IeUB

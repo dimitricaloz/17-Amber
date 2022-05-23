@@ -1,29 +1,47 @@
-@font-face {
-  font-family: 'Oxygen';
-  src: url('Oxygen-Light.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Oxygen';
-  src: url('Oxygen-Bold.woff2') format('woff2');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Oxygen';
-  src: url('Oxygen-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 html {
   scroll-behavior: smooth;
+}
+
+.background-description-70s {
+  background-image: url("../img/patterns-70s.webp");
+  background-size: cover;
+  padding:50px 0px;
+}
+
+.background-description-60s {
+  background-image: url("../img/patterns-60s.webp");
+  background-size: cover;
+  padding:50px 0px;
+}
+
+.background-description-50s {
+  background-image: url("../img/patterns-50s.webp");
+  background-size: cover;
+  padding:50px 0px;
+}
+
+.background-description-50s p {
+  background-color: white;
+  font-family: 'asap';
+  font-weight: 100;
+  font-size: 6px;
+  text-align: center;
+}
+
+.background-description-60s p {
+  background-color: white;
+  font-family: 'asap';
+  font-weight: 100;
+  font-size: 6px;
+  text-align: center;
+}
+
+.background-description-70s p {
+  background-color: white;
+  font-family: 'asap';
+  font-weight: 100;
+  font-size: 6px;
+  text-align: center;
 }
 
 body {
@@ -32,283 +50,81 @@ body {
 }
 
 h1 {
-  font-family: 'montserrat';
+  font-family: 'asap';
   color: black;
-  font-weight: 500;
-  font-size: 35px;
-  text-align: left;
-}
-
-header {
-  background-image: url("../img/photo\ sommaire.webp");
-  background-size: cover;
-  padding:50px 0px;
-}
-
-header .navigation {
-  background-color: white;
-  margin: 0px 50px ;
-  padding: 10px;
-  border: solid 4px;
-}
-
-header ul {
-  font-size: 20px;
-  font-family: 'oxygen';
-  color: black;
-  list-style: circle;
-}
-
-a {
-  color:black;
-}
-
-.navigation {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 241px;
-  height: 241px;
-}
-
-header h1 {
-  margin: 1px;
-  font-size: 24px;
-}
-
-main {
-  background-color: #BBD7FF;
-  padding-top: 10px;
-}
-
-.background-main {
-  font-family: bely-display, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 130px;
-  margin: 0;
-}
-
-main p {
-  font-size: px;
-}
-
-.foundry {
-  background-color: #D9F3FF;
-  padding: 10px;
-  border-radius: 20px;
-  margin: 50px;
-  font-family: 'oxygen';
-  font-size: 17px; 
-  box-shadow: -17px 17px 0px -5px rgba(0,0,0,0.3);
-}
-
-.foundry h1 {
-  margin: 10px 0;
-  font-size: 24px;
-}
-
-.character {
-  background-color: #D9F3FF;
-  padding: 10px;
-  border-radius: 20px;
-  margin: 50px;
-  font-family: 'oxygen';
-  font-size: 17px; 
-  box-shadow: -17px 17px 0px -5px rgba(0,0,0,0.3);
-}
-
-.character h1 {
-  margin: 10px 0;
-  font-size: 24px;
-}
-
-.typerface-overview {
-  background-color: #D9F3FF;
-  padding: 10px;
-  border-radius: 20px;
-  margin: 25px;
-  box-shadow: -17px 17px 0px -5px rgba(0,0,0,0.3);
-}
-
-.typerface-overview p {
-  margin: 0 0 20px 0;
-}
-
-.typerface-overview h2 {
-  margin: 0;
-}
-
-.typerface-overview h1 {
-  margin: 10px 0;
-  font-size: 24px;
-}
-
-.typerface-overview h2 {
-  font-family: 'oxygen';
-  font-size: 19px;
-  font-weight: 400;
-}
-
-.display {
-  font-family: bely-display, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 17px;
-}
-
-.regular {
-  font-family: bely, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 17px;
-}
-
-.italic {
-  font-family: bely, serif;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 17px;
-}
-
-.bold {
-  font-family: bely, serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 17px;
-}
-
-.bold-italic {
-  font-family: bely, serif;
-  font-weight: 700;
-  font-style: italic;
-  font-size: 17px;
-}
-
-.map {
-  background-color: #D9F3FF;
-  padding: 10px;
-  border-radius: 20px;
-  margin: 25px;
-  box-shadow: -17px 17px 0px -5px rgba(0,0,0,0.3);
-  margin-bottom: 40px;
-}
-
-.map h1 {
-  margin: 10px 0;
-  font-size: 24px;
-}
-
-.map h2 {
-  font-family: 'oxygen';
-  font-size: 19px;
-  font-weight: 400;
-  margin: 0;
-}
-
-.map p {
-  font-family: bely, serif;
-  font-weight: 400;
-  font-style: normal;
-  margin: 10px 0;
-}
-
-.test-zone {
-  background-color: #D9F3FF;
-  padding: 10px;
-  border-radius: 20px;
-  margin: 25px;
-  box-shadow: -17px 17px 0px -5px rgba(0,0,0,0.3);
-}
-
-footer {
-  background-color: white;
-}
-
-footer div {
-  background-color: white;
-  margin: 50px 60px;
-  border: solid 4px;
-  font-family: 'oxygen';
-  font-size: 19px;
-  font-weight: 400;
+  font-weight: 200;
+  font-size: 27px;
   text-align: center;
 }
 
-input {
-  width: 300px;
-  height: 100px;
-  border: none;
-  font-size: 50px;
-  font-family: bely-display, sans-serif;
-  font-weight: 400;
-  font-style: normal;
+header img {
+  max-width: 70px;
+}
+
+header nav {
+  background-color: black;
+}
+
+nav a {
+  color: white;
+  font-family: 'asap';
+  font-size: 15px;
+  text-decoration: none;
+}
+
+header p {
+  background-color: #E1EFF3;
+  font-family: 'asap';
+  font-weight: 100;
+  font-size: 14px;
+  text-align: center;
 }
 
 main {
-  padding-bottom: 25px;
+  background-color: white;
+  padding-top: 10px;
 }
 
-@keyframes slidein {
-  from {
-    margin-left: 1200px;
-    width: 300%;
-  }
-
-  to {
-    margin-left: -1200px;
-    width: 100%;
-  }
+img {
+  max-width: 300px;
 }
 
-.background-main {
-  animation-name: slidein;
-	animation-duration: 3s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
+.product img{
+
 }
 
-.background-main-small {
-  animation-name: small-letter;
-	animation-duration: 6s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-  font-family: bely-display, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 130px;
-  margin: 0;
+.button {
+  font-family: 'asap';
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  background-color: black;
 }
 
-@keyframes small-letter {
-  from {
-    margin-left: 2200px;
-  }
-
-  to {
-    margin-left: -2200px;
-  }
-}
- 
-.background-main-capital {
-  animation-name: capital-letter;
-	animation-duration: 8s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-  font-family: bely-display, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 130px;
-  margin: 0;
+.nav-footer {
+  background-color: #D9F3FF;
 }
 
-@keyframes capital-letter {
-  from {
-    margin-left: 3200px;
-  }
+.nav-footer a {
+  color: black;
+  border: solid black 1px ;
+}
 
-  to {
-    margin-left: -3200px;
-  }
+footer hr {
+  border: solid white 1px;
+}
+
+footer a {
+  font-family: 'asap';
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+footer h1 {
+  color: white
+}
+
+footer {
+  background-color: black;
 }
