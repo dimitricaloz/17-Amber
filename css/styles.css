@@ -204,6 +204,7 @@ ul {
   text-align: center;
   border-radius: 41px;
   padding: 9px 19px;
+  width: 163px;
 }
 
 .button-other-product {
@@ -215,6 +216,7 @@ ul {
   padding: 7px 13px;
   font-family: 'asap';
   font-size: 22px;
+  width: 150px;
 }
 
 .container-navigation {
@@ -247,4 +249,5 @@ main h1 {
   display: flex;
   flex-direction: column;
   padding-bottom: 25px;
+  align-items: center;
 }
